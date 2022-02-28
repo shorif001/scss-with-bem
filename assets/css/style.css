@@ -61,7 +61,8 @@ body {
 
 .service__btn--blue:hover {
   text-decoration: none;
-  color: #fff;
+  color: #000;
+  background-color: hotpink;
 }
 
 .service__btn--green {
@@ -73,11 +74,12 @@ body {
 .service__btn--green:hover {
   text-decoration: none;
   color: #fff;
+  background-color: indigo;
 }
 
 .service__btn:hover {
-  background-color: green;
-  color: #fff;
+  background-color: chartreuse;
+  color: #000;
   text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
