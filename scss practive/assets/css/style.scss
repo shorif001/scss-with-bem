@@ -1,0 +1,94 @@
+
+
+// scss file run korar jonno vscode extension theke live sass compiler install kore index.html a
+// style link a style.css (style.scss thakle) link korate hobe
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+// // normal scss start
+
+// .service{
+//     width: 1000px;
+//     margin: 100px auto;
+//     background-color: #f2f2f2;
+//     border: 1px solid #ddd;
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+//     .single-service{
+//         flex-basis: 32%;
+//         background-color: tomato;
+//         color: #fff;
+//         padding: 20px;
+//         h4{
+//             text-transform: capitalize;
+//             font-size: 22px;
+//         }
+//         p{
+//             margin: 20px 0;
+//             line-height: 24px;
+//         }
+//         a{
+//             display: inline-block;
+//             background-color: teal;
+//             padding: 10px 30px;
+//             text-transform: capitalize;
+//             color: #fff;
+//             text-decoration: none;
+//         }
+//     }
+// }
+
+
+// // normal scss end
+
+
+
+
+
+
+// BEM standard with scss start
+
+.service{
+    width: 1000px;
+    margin: 100px auto;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .single-service{
+        flex-basis: 32%;
+        background-color: tomato;
+        color: #fff;
+        padding: 20px;
+        h4{
+            text-transform: capitalize;
+            font-size: 22px;
+        }
+        p{
+            margin: 20px 0;
+            line-height: 24px;
+        }
+        a{
+            display: inline-block;
+            background-color: teal;
+            padding: 10px 30px;
+            text-transform: capitalize;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+
+
+// BEM standard with scss end
