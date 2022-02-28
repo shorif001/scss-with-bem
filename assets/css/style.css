@@ -53,6 +53,28 @@ body {
   transition: .3s;
 }
 
+.service__btn--blue {
+  background-color: blue;
+  color: #fff;
+  padding: 15px 30px;
+}
+
+.service__btn--blue:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.service__btn--green {
+  background-color: green;
+  color: #fff;
+  padding: 15px 30px;
+}
+
+.service__btn--green:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
 .service__btn:hover {
   background-color: green;
   color: #fff;

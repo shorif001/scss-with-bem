@@ -90,6 +90,24 @@ body{
         color: #fff;
         text-decoration: none;
         transition: .3s;
+        &--blue{
+            background-color: blue;
+            color: #fff;
+            padding: 15px 30px;
+            &:hover{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+        &--green{
+            background-color: green;
+            color: #fff;
+            padding: 15px 30px;
+            &:hover{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
         &:hover{
             background-color: green;
             color: #fff;
