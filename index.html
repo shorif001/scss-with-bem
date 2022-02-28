@@ -1,0 +1,224 @@
+    <!-- normal css a BEM bebohar kora start -->
+    <!-- 
+      root div a mane "body" tag er vitore prothom j div thakbe 
+    shei div a ekta class dite hobe. ebong shei class ta vitore
+    joto class likhbo shei class gulor aage shei parent class ta likhe
+    __ (double underscore) diye notun j class likhbo shei ta likhte hobe.
+    jemon: 
+    
+    <body>
+      <div class="homepage">
+        <div class="homepage__cover-section">
+          <div class="homepage__cover-content">
+            <div class="homepage__cover-images">
+              <img src="..." alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="homepage__photo-section">
+          <div class="homepage__photos-content">
+            <div class="homepage__photos">
+              <img src=".." alt="...">
+              <img src=".." alt="...">
+              <img src=".." alt="...">
+              <img src=".." alt="...">
+            </div>
+            <div class="homepage__photos-2nd">
+              <img src=".." alt="...">
+              <img src=".." alt="...">
+              <img src=".." alt="...">
+              <img src=".." alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="homepage__user-section">
+          <div class="homepage__user-content">
+            <div class="homepage__users">
+              <h4 class="homepage__users-name">name:</h4>
+              <p class="homepage__users-members">designation:</p>
+              <p class="homepage__users-address">address:</p>
+              <p class="homepage__users-contact">contact:</p>
+            </div>
+          </div>
+        </div>
+        <div class="homepage__team-section">
+          <div class="homepage__team-content">
+            <div class="homepage__teams">
+              <h4 class="homepage__teams-name">name:</h4>
+              <p class="homepage__teams-members">Team Members:</p>
+              <p class="homepage__teams-address">address:</p>
+              <p class="homepage__teams-contact">contact:</p>
+            </div>
+            <div class="homepage__teams-2nd">
+              <h4 class="homepage__teams-2nd-name">name:</h4>
+              <p class="homepage__teams-2nd-members">Team Members:</p>
+              <p class="homepage__teams-2nd-address">address:</p>
+              <p class="homepage__teams-2nd-contact">contact:</p>
+            </div>
+          </div>
+        </div>
+        <div class="homepage__footer-section">
+          <div class="homepage__footer-content">
+            <div class="homepage__footer-left">
+              <p class="homepage__footer-left-name">name:</p>
+              <p class="homepage__footer-left-address">address:</p>
+              <p class="homepage__footer-left-contact">contact:</p>
+            </div>
+            <div class="homepage__footer-middle">
+              <p class="homepage__footer-middle-name">name:</p>
+              <p class="homepage__footer-middle-address">address:</p>
+              <p class="homepage__footer-middle-contact">contact:</p>
+            </div>
+            <div class="homepage__footer-right">
+              <p class="homepage__footer-right-name">name:</p>
+              <p class="homepage__footer-right-address">address:</p>
+              <p class="homepage__footer-right-contact">contact:</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body> 
+  -->
+
+    <!-- normal css a BEM bebohar kora end -->
+    
+    <!-- scss file a BEM bebohar kora start-->
+    
+    <!-- 
+      service
+      service__single
+      service__title
+      service__desc
+      service__btn 
+      uporer gulo class name 
+    --> 
+    
+    <!--     
+          service = parent, 
+            __single = child, 
+            __title = child, 
+            __desc = child, 
+            __btn = child 
+
+        (service__single mane "service" (parent) er vitore "__single" (child),
+        service__title mane "service" (parent) er vitore "__title" (child),
+        service__desc mane "service" (parent) er vitore "__desc" (child),
+        service__btn mane "service" (parent) er vitore "__btn" (child)
+        ) 
+        
+        "__" (double underscore mane BEM Standard methods), 
+              uporer class gulo bebohar korte hobe html a 
+    -->
+
+
+    <!-- 
+      class gulo bebohar korar jonno.
+      parent class er vitore child class gulo likhte hobe jemon: 
+    -->
+
+    <!-- 
+      .service{
+      
+          &__single{
+            
+          }
+          &__title{
+            
+          }
+          &__desc{
+
+          }
+          &__btn{
+              &:hover{
+
+              }
+          }
+      } 
+    -->
+
+  <!-- 
+    parent er vitore child bebohar korar jonno 
+    child class er aage "&" bebohar korte hobe scss file a. 
+  -->
+<!-- scss file a BEM bebohar kora end-->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>navbar</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./assets/fontawesome/css/all.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <!-- 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 -->
+
+
+
+  <!-- normal scss start -->
+
+  <!-- <div class="service">
+    <div class="single-service">
+      <h4>Service title 1</h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi sequi velit, iusto hic esse voluptatum.</p>
+      <a href="#">Read</a>
+    </div>
+    <div class="single-service">
+      <h4>Service title 2</h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi sequi velit, iusto hic esse voluptatum.</p>
+      <a href="#">Read</a>
+    </div>
+    <div class="single-service">
+      <h4>Service title 3</h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi sequi velit, iusto hic esse voluptatum.</p>
+      <a href="#">Read</a>
+    </div>
+  </div> -->
+
+    <!-- normal scss end -->
+
+
+
+
+
+      <!-- BEM standard with scss start -->
+
+    <div class="service">
+      <div class="service__single">
+        <h4 class="service__title">Service title 1</h4>
+        <p class="service__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi sequi velit, iusto hic esse voluptatum.</p>
+        <a class="service__btn" href="#">Read</a>
+      </div>
+      <div class="service__single">
+        <h4 class="service__title">Service title 1</h4>
+        <p class="service__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi sequi velit, iusto hic esse voluptatum.</p>
+        <a class="service__btn" href="#">Read</a>
+      </div>
+      <div class="service__single">
+        <h4 class="service__title">Service title 1</h4>
+        <p class="service__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi sequi velit, iusto hic esse voluptatum.</p>
+        <a class="service__btn" href="#">Read</a>
+      </div>
+     
+      
+    </div>
+
+        <!-- BEM standard with scss start -->
+
+  
+  <script src="./assets/js/jquery-3.2.1.min.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/owl.carousel.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

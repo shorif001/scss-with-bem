@@ -24,7 +24,7 @@ body {
           justify-content: space-between;
 }
 
-.service .single-service {
+.service__single {
   -ms-flex-preferred-size: 32%;
       flex-basis: 32%;
   background-color: tomato;
@@ -32,21 +32,29 @@ body {
   padding: 20px;
 }
 
-.service .single-service h4 {
+.service__title {
   text-transform: capitalize;
   font-size: 22px;
 }
 
-.service .single-service p {
+.service__desc {
   margin: 20px 0;
   line-height: 24px;
 }
 
-.service .single-service a {
+.service__btn {
   display: inline-block;
   background-color: teal;
   padding: 10px 30px;
   text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.service__btn:hover {
+  background-color: green;
   color: #fff;
   text-decoration: none;
 }
