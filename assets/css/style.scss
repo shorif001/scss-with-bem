@@ -140,3 +140,28 @@ $myWidth:680px;
 
 // nesting
 
+
+
+
+// @mixin and @include
+
+@mixin important-text{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+
+
+
+.mixin-class{
+    @include important-text;
+}
+
+
+
+@mixin bordered($myColor, $myWidth) {
+    border: $myWidth solid $myColor;
+    
+}
+
