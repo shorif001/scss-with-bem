@@ -165,3 +165,6 @@ $myWidth:680px;
     
 }
 
+.border{
+    @include bordered(blue, 6px);
+}

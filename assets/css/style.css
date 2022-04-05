@@ -95,4 +95,8 @@ body {
   font-weight: bold;
   border: 1px solid blue;
 }
+
+.border {
+  border: 6px solid blue;
+}
 /*# sourceMappingURL=style.css.map */
