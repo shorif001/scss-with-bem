@@ -57,6 +57,7 @@ body{
 
 // BEM standard with scss start
 
+
 .service{
     width: 1000px;
     margin: 100px auto;
@@ -119,3 +120,23 @@ body{
 
 
 // BEM standard with scss end
+
+// scss variable
+
+$myFont: helvetica, sans-serif;
+$myColor: green;
+$myBackground: indigo;
+$myFontSize:18px;
+$myWidth:680px;
+
+
+
+.mynav{
+    font-family: $myFont;
+    color: #fff;
+    background: $myBackground;
+}
+
+
+// nesting
+

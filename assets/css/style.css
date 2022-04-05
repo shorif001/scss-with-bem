@@ -82,4 +82,10 @@ body {
   color: #000;
   text-decoration: none;
 }
+
+.mynav {
+  font-family: helvetica, sans-serif;
+  color: #fff;
+  background: indigo;
+}
 /*# sourceMappingURL=style.css.map */
